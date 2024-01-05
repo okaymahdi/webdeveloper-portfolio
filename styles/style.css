@@ -19,16 +19,16 @@ body {
 }
 
 .section_title {
-  color:  #181818;
+  color: #181818;
   text-align: center;
   font-size: 35px;
   font-weight: 700;
 }
 
 .section_description {
-    color:  #757575;
-    text-align: center;
-    font-size: 18px;
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
 }
 
 /* nav related styles */
@@ -104,10 +104,48 @@ nav a {
 }
 
 /* main section styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* about section styles */
 .about {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0;
+}
+
+.about_info_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about_info {
+  text-align: center;
+}
+
+.info_title {
+  font-size: 20px;
+  color: #757575;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.info_description {
+  font-size: 20px;
+  color: #474747;
+  line-height: 30px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+#what_i_do_description {
+  padding: 30px 150px;
+}
+
+.skills_container {
+  display: flex;
 }
