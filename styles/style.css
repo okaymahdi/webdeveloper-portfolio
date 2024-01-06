@@ -109,12 +109,20 @@ main {
   margin: 0 auto;
 }
 
+main section {
+  margin-top: 130px;
+}
+
 /* about section styles */
 .about {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0;
+}
+
+.section_description {
+  text-align: center;
 }
 
 .about_info_container {
@@ -140,12 +148,33 @@ main {
   line-height: 30px;
   font-weight: 700;
   margin-top: 5px;
+  text-align: justify;
 }
 
 #what_i_do_description {
   padding: 30px 150px;
 }
 
+/* skills related style */
 .skills_container {
   display: flex;
+  gap: 24px;
+}
+
+.skill {
+  padding: 33px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill_description {
+  color: #757575;
+}
+
+/* resume section styles */
+.resume_column_title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
 }
